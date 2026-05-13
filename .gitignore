@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Local database and uploads
+postgres-data/
+uploads/
+*.sqlite
+*.db
+
+# Build and cache
+dist/
+build/
+.cache/
+.parcel-cache/
+coverage/
+
+# Android / Gradle local files
+.gradle/
+android-app/.gradle/
+android-app/**/build/
+android-app/local.properties
+*.apk
+*.aab
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log

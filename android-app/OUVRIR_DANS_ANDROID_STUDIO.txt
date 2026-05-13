@@ -1,0 +1,15 @@
+Projet Android AfriFlow Money
+
+Ouvrir ce dossier dans Android Studio :
+
+C:\Users\HP\Documents\AFRIFLOW\android-app
+
+Dans Android Studio :
+1. File > Open
+2. Choisir le dossier android-app
+3. Attendre la synchronisation Gradle
+4. Cliquer sur Run ou Build > Build APK(s)
+
+Le fichier web de l'application est embarque ici :
+
+app\src\main\assets\index.html

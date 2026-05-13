@@ -1,0 +1,31 @@
+{
+  "name": "afriflow-money",
+  "version": "1.0.0",
+  "description": "Plateforme de transfert d'argent multi-devises avec front-end mobile-first et back-end PostgreSQL.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "db:reset": "node scripts/reset-db.js",
+    "db:check": "node scripts/check-db.js",
+    "check": "node --check backend/server.js && node --check backend/db.js && node --check js/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.20.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
