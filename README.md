@@ -1,5 +1,7 @@
 # AFRIFLOW
 
+Depot pour le projet fintech AfriFlow Money.
+
 Prototype d'une plateforme de transfert d'argent multi-devises orientee marche africain.
 
 ## Structure
